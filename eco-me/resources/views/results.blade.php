@@ -73,9 +73,6 @@
                 </div>
                    
                 @endif
-                <div class="text-gray-700">
-                    <p>No suggestions available.</p>
-                </div>
 
                 @if(isset($suggestions['metrics']))
                     <div class="mt-4 text-gray-700">
